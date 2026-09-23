@@ -29,36 +29,36 @@ with col1:
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
+ url = "https://yolov5f-deq5t6yqfud4yeawxpmejj.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ url = "https://f88d6cyzd5vrbetcdnz4we.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
+ st.write("En la siguiente veremos una aplicación que traduce audio.") 
+ url = "https://traductorc-mr5myu5tkb3vgk4m8qi6ek.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("TF-IDF")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
+ st.write("La siguiente aplicación usa esta medida para evalua relevancia entre 3 preguntas.") 
  url = "https://dataagente.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Reconocimiento Óptico de Caracteres")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
+ st.write("El siguiente enlace reconoce caracteres de fotos y procesa a texto.") 
+ url = "https://ocr-audioc-3ejf7gktxq2ebkyt5nzwoa.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
 
