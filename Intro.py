@@ -25,7 +25,7 @@ with col1:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
+ image = Image.open('data_analisis.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://yolov5f-deq5t6yqfud4yeawxpmejj.streamlit.app/"
@@ -47,7 +47,7 @@ with col2:
  st.write(f"[Enlace]({url})")
 
  st.subheader("TF-IDF")
- image = Image.open('data_analisis.png')
+ image = Image.open('text_to_audio.png')
  st.image(image, width=190)
  st.write("La siguiente aplicación usa esta medida para evaluar relevancia entre 3 preguntas.") 
  url = "https://tfidfj-mv4mppkzxsnc2bko4ysjfn.streamlit.app/"
