@@ -18,10 +18,10 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Convertor: Texto a Audio")
- image = Image.open('txt_to_audio2.png')
+ st.subheader("Primera prueba")
+ image = Image.open('txt_to_audio.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
+ st.write("Este fue el primer ejercicio realizado con streamlit, un recuerdo básico.") 
  url = "https://imm1copia-htexxxgj2tsfnfbu4zg3rj.streamlit.app/#tu-audio"
  st.write(f"Texto a voz: [Enlace]({url})")
 
@@ -50,7 +50,7 @@ with col2:
  st.subheader("TF-IDF")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("La siguiente aplicación usa esta medida para evalua relevancia entre 3 preguntas.") 
+ st.write("La siguiente aplicación usa esta medida para evaluar relevancia entre 3 preguntas.") 
  url = "https://dataagente.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
@@ -63,25 +63,25 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
+ st.subheader("Convertor: Texto a Audio")
+ image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos conversión de texto input a audio") 
+ url = "https://imm1copia-htexxxgj2tsfnfbu4zg3rj.streamlit.app/#tu-audio"
+ st.write(f"Texto a voz: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Análisis de Sentimientos")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("El siguiente enlace asigna valores de subjetividad y polaridad.") 
+ url = "https://sentimentab-4nxap93hsdrh57cihepe6q.streamlit.app//"
  st.write(f"Vision: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("WordCloud")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("Se presenta aquí una aplicación para crear Nube de ideas de textos.") 
+ url = "https://wordcloudj-mahtq7qurccxdqrbtxdzxd.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
 
