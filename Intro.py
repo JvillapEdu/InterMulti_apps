@@ -25,7 +25,7 @@ with col1:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
- image = Image.open('data_analisis.jpg')
+ image = Image.open('data_analisis.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://yolov5f-deq5t6yqfud4yeawxpmejj.streamlit.app/"
