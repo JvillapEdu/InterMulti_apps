@@ -63,7 +63,7 @@ with col2:
 
 with col3: 
  st.subheader("Convertor: Texto a Audio")
- image = Image.open('txt_to_audio2.png')
+ image = Image.open('audio_to_txt.png')
  st.image(image, width=190)
  st.write("En el siguiente enlace veremos conversión de texto input a audio") 
  url = "https://imm1copia-htexxxgj2tsfnfbu4zg3rj.streamlit.app/#tu-audio"
