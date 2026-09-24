@@ -27,8 +27,15 @@ with col1:
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('data_analisis.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes. (YOLO)") 
  url = "https://yolov5f-deq5t6yqfud4yeawxpmejj.streamlit.app/"
+ st.write(f"[Enlace]({url})")
+
+ st.subheader("Caracteres en fotos")
+ image = Image.open('OIG2.jpg')
+ st.image(image, width=200)
+ st.write("Una aplicación básica de reconocimiento de caracteres en fotos.") 
+ url = "https://gusunhfubjleh3wzmffwwh.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
