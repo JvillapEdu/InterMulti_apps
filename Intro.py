@@ -34,7 +34,7 @@ with col1:
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
+ st.write("Aquí se encuentra una aplicación donde se usa Teachable Machine.") 
  url = "https://f88d6cyzd5vrbetcdnz4we.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
@@ -50,7 +50,7 @@ with col2:
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
  st.write("La siguiente aplicación usa esta medida para evaluar relevancia entre 3 preguntas.") 
- url = "https://dataagente.streamlit.app/"
+ url = "https://tfidfj-mv4mppkzxsnc2bko4ysjfn.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
  st.subheader("Reconocimiento Óptico de Caracteres")
